@@ -1,17 +1,23 @@
 {
-    "name": "kazuhei/design-pattern",
-    "authors": [
-        {
-            "name": "kazuhei",
-            "email": "kazuhei0108@gmail.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "IteratorPattern\\": "IteratorPattern/",
-            "IteratorPatternConcrete\\": "IteratorPatternConcrete/",
-            "Main\\": "Main/"
-        }
+  "name": "kazuhei/design-pattern",
+  "authors": [
+    {
+      "name": "kazuhei",
+      "email": "kazuhei0108@gmail.com"
     }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "IteratorPattern\\": "IteratorPattern/",
+      "IteratorPatternConcrete\\": "IteratorPatternConcrete/",
+      "Adapter\\": "Adapter/",
+      "AdapterConcrete\\": "AdapterConcrete/",
+      "Builder\\": "Builder/",
+      "BuilderConcrete\\": "BuilderConcrete/",
+      "FactoryMethod\\": "FactoryMethod/",
+      "FactoryMethodConcrete\\": "FactoryMethodConcrete/",
+      "Main\\": "Main/"
+    }
+  }
 }

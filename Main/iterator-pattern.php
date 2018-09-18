@@ -5,12 +5,13 @@ namespace Main;
 use IteratorPatternConcrete\Book;
 use IteratorPatternConcrete\BookShelf;
 
-require_once "vendor/autoload.php";
+require_once "../vendor/autoload.php";
 
 $bookShelf = new BookShelf([
-    new Book('インフラの教科書'),
-    new Book('プリンシプルオブプログラミング'),
-    new Book('ネットワークはなぜつながるのか')
+    new Book('A.インフラの教科書'),
+    new Book('B.プリンシプルオブプログラミング'),
+    new Book('C.ネットワークはなぜつながるのか'),
+    new Book('D.デザインパターン入門')
 ]);
 
 $iterator = $bookShelf->iterator();

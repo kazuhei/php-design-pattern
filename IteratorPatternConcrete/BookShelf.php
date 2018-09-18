@@ -7,6 +7,7 @@ use IteratorPattern\IteratorInterface;
 
 class BookShelf implements AggregateInterface
 {
+    /** @var []Book  */
     private $books;
 
     public function __construct(array $books)

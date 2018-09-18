@@ -2,6 +2,7 @@
 
 namespace IteratorPattern;
 
-interface AggregateInterface {
+interface AggregateInterface
+{
     public function iterator(): IteratorInterface;
 }
